@@ -1,0 +1,15 @@
+[push]
+	default = matching
+[user]
+#	name = 
+#	email = 
+[http]
+	postBuffer = 524288000
+[core]
+	autocrlf = input
+[pull]
+	rebase = true
+[log]
+  date = relative
+[format]
+  pretty = format:%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(15,trunc)%ad %C(auto,green)%<(20,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D
